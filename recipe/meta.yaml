@@ -1,5 +1,5 @@
 {% set name = "hvsampledata" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hvsampledata-{{ version }}.tar.gz
-  sha256: 81d6f159beddbd01060546740aba1df946cda24ce4dcce31339103a3c287a190
+  sha256: 9f950bd1fbc74384c14c00d4e9dfa0b08956e0db9f19de5031caf999d012b11c
 
 build:
   noarch: python
